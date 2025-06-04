@@ -251,7 +251,6 @@ def interpret(a):
             i += 1
             continue
 
-        # ---- NEW: Function call with namespace (e.g. Main.static()) ----
         if (
             len(split_code) >= 5 and
             split_code[1] == "." and
